@@ -7,6 +7,7 @@ import json
 import os
 from security.security import audit_log
 
+# Default save file used by the game
 SAVE_FILE = "savegame.json"
 
 
@@ -31,8 +32,7 @@ def save_game(state, filename=SAVE_FILE):
 
         # Record that the save was successful.
         audit_log("SAVE_ATTEMPT", "SUCCESS", f"File={filename}")
-
-        print(f"Game saved to {filename}.")
+        print("Game saved successfully.")
         return True
 
     except Exception as error:
@@ -78,6 +78,7 @@ def load_game(filename=SAVE_FILE):
 
         # If the hashes match, the save file is safe to use.
         audit_log("LOAD_ATTEMPT", "SUCCESS", f"File={filename}")
+        audit_log("SAVE_VERIFIED", "SUCCESS", "Hash matched correctly")
         print("Save loaded successfully.")
         return state
 
