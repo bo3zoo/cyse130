@@ -6,7 +6,7 @@ CYSE 130 Final Project: Text-Based Adventure Game in Python
 
 **Escape Protocol** is a text-based adventure game where the player wakes up inside a locked research facility during a security breach. The player must make choices, collect items, interact with NPCs, complete challenges, and find a way to escape.
 
-This is a **one-file Python version**, so all game systems are inside one file.
+This project uses a modular Python structure with separate files for the story, challenges, inventory, game engine, and cybersecurity systems.
 
 ## Team Members
 
@@ -27,4 +27,4 @@ This is a **one-file Python version**, so all game systems are inside one file.
 4. Run this command:
 
 ```bash
-python escape_protocol_one_file.py
+python main.py
