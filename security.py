@@ -3,7 +3,7 @@
 # CYBER PACK: AUDIT LOGGING + INPUT VALIDATION
 
 from datetime import datetime
-
+# Main audit log file used for security-related events
 LOG_FILE = "audit_log.txt"
 
 
@@ -27,7 +27,7 @@ def get_valid_choice(prompt, valid_choices, scene="Menu"):
             if choice in valid_choices:
                 return choice
             audit_log("INPUT_INVALID", "FAIL", f'Scene={scene} Input="{choice}"')
-            print(f"Invalid choice. Please enter one of these options: {', '.join(valid_choices)}.")
+            print("Invalid choice. Please try again.")
         except (KeyboardInterrupt, EOFError):
             audit_log("INPUT_INTERRUPTED", "FAIL", f"Scene={scene}")
             print("\nInput interrupted. Please choose again.")
