@@ -6,11 +6,12 @@ import hashlib
 import json
 import os
 from security.security import audit_log
-
+# Default save file used by the game
 SAVE_FILE = "savegame.json"
 
 
 def hash_state(state):
+    # Convert the game state into a stable JSON string before hashing
     clean_json = json.dumps(state, sort_keys=True)
     return hashlib.sha256(clean_json.encode("utf-8")).hexdigest()
 
@@ -21,7 +22,7 @@ def save_game(state, filename=SAVE_FILE):
         with open(filename, "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4)
         audit_log("SAVE_ATTEMPT", "SUCCESS", f"File={filename}")
-        print(f"Game saved to {filename}.")
+        print("Game saved successfully.")
         return True
     except Exception as error:
         audit_log("SAVE_ATTEMPT", "FAIL", f"Reason={error}")
@@ -49,6 +50,7 @@ def load_game(filename=SAVE_FILE):
             print("WARNING: Save file was changed or tampered with. Load rejected.")
             return None
         audit_log("LOAD_ATTEMPT", "SUCCESS", f"File={filename}")
+        audit_log("SAVE_VERIFIED", "SUCCESS", "Hash matched correctly")
         print("Save loaded successfully.")
         return state
     except Exception as error:
