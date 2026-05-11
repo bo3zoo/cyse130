@@ -1,0 +1,75 @@
+2026-05-10 22:38:16 - INPUT_INVALID - FAIL - Scene=MainMenu Input="new game"
+2026-05-10 22:38:19 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:38:28 - CHOICE_MADE - SUCCESS - Scene=start Choice=1 Next=office_hall
+2026-05-10 22:38:31 - CHOICE_MADE - SUCCESS - Scene=office_hall Choice=3 Next=caught_ending
+2026-05-10 22:38:31 - GAME_END - SUCCESS - Ending=caught_ending
+2026-05-10 22:38:34 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:38:37 - CHOICE_MADE - SUCCESS - Scene=start Choice=2 Next=ai_voice
+2026-05-10 22:38:37 - NPC_INTERACTION - SUCCESS - NPC=SecurityAI
+2026-05-10 22:38:37 - ITEM_COLLECTED - SUCCESS - Item=Terminal Password Clue
+2026-05-10 22:38:41 - CHOICE_MADE - SUCCESS - Scene=ai_voice Choice=1 Next=server_room
+2026-05-10 22:39:38 - CHALLENGE_ATTEMPT - FAIL - Puzzle=TerminalLogin Attempts=1
+2026-05-10 22:39:42 - CHALLENGE_ATTEMPT - FAIL - Puzzle=TerminalLogin Attempts=2
+2026-05-10 22:39:43 - CHALLENGE_ATTEMPT - FAIL - Puzzle=TerminalLogin Attempts=3
+2026-05-10 22:39:43 - GAME_END - SUCCESS - Ending=alarm_ending
+2026-05-10 22:39:49 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:39:51 - CHOICE_MADE - SUCCESS - Scene=start Choice=3 Next=scientist_lab
+2026-05-10 22:39:54 - CHOICE_MADE - SUCCESS - Scene=scientist_lab Choice=1 Next=scientist_saved
+2026-05-10 22:39:54 - NPC_INTERACTION - SUCCESS - NPC=TrappedScientist
+2026-05-10 22:39:54 - ITEM_COLLECTED - SUCCESS - Item=Tunnel Access Code
+2026-05-10 22:39:54 - ITEM_COLLECTED - SUCCESS - Item=Energy Injector
+2026-05-10 22:39:56 - CHOICE_MADE - SUCCESS - Scene=scientist_saved Choice=1 Next=scientist_warning
+2026-05-10 22:39:59 - CHOICE_MADE - SUCCESS - Scene=scientist_warning Choice=1 Next=hero_escape
+2026-05-10 22:39:59 - GAME_END - SUCCESS - Ending=hero_escape
+2026-05-10 22:40:02 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:40:06 - CHOICE_MADE - SUCCESS - Scene=start Choice=3 Next=scientist_lab
+2026-05-10 22:40:07 - CHOICE_MADE - SUCCESS - Scene=scientist_lab Choice=2 Next=dark_tunnel
+2026-05-10 22:40:08 - CHOICE_MADE - SUCCESS - Scene=dark_tunnel Choice=1 Next=trapped_ending
+2026-05-10 22:40:08 - GAME_END - SUCCESS - Ending=trapped_ending
+2026-05-10 22:40:12 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:40:14 - CHOICE_MADE - SUCCESS - Scene=start Choice=3 Next=scientist_lab
+2026-05-10 22:40:16 - SAVE_ATTEMPT - SUCCESS - File=savegame.json
+2026-05-10 22:40:20 - GAME_END - SUCCESS - Player quit
+2026-05-10 22:40:21 - LOAD_ATTEMPT - SUCCESS - File=savegame.json
+2026-05-10 22:40:21 - GAME_START - SUCCESS - Scene=scientist_lab
+2026-05-10 22:40:31 - ITEM_USED - FAIL - Item=key
+2026-05-10 22:40:39 - CHOICE_MADE - SUCCESS - Scene=scientist_lab Choice=1 Next=scientist_saved
+2026-05-10 22:40:39 - NPC_INTERACTION - SUCCESS - NPC=TrappedScientist
+2026-05-10 22:40:39 - ITEM_COLLECTED - SUCCESS - Item=Tunnel Access Code
+2026-05-10 22:40:39 - ITEM_COLLECTED - SUCCESS - Item=Energy Injector
+2026-05-10 22:40:44 - CHOICE_MADE - SUCCESS - Scene=scientist_saved Choice=2 Next=hero_escape
+2026-05-10 22:40:44 - GAME_END - SUCCESS - Ending=hero_escape
+2026-05-10 22:40:46 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:40:49 - CHOICE_MADE - SUCCESS - Scene=start Choice=1 Next=office_hall
+2026-05-10 22:40:53 - CHOICE_MADE - SUCCESS - Scene=office_hall Choice=1 Next=manager_log
+2026-05-10 22:40:53 - NPC_INTERACTION - SUCCESS - NPC=FormerManagerLog
+2026-05-10 22:40:53 - ITEM_COLLECTED - SUCCESS - Item=Facility Map
+2026-05-10 22:40:55 - CHOICE_MADE - SUCCESS - Scene=manager_log Choice=1 Next=manager_office
+2026-05-10 22:40:55 - ITEM_COLLECTED - SUCCESS - Item=Blue Keycard
+2026-05-10 22:40:57 - CHOICE_MADE - SUCCESS - Scene=manager_office Choice=1 Next=escape_loading_bay
+2026-05-10 22:40:57 - GAME_END - SUCCESS - Ending=escape_loading_bay
+2026-05-10 22:40:59 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:41:01 - CHOICE_MADE - SUCCESS - Scene=start Choice=3 Next=scientist_lab
+2026-05-10 22:41:02 - CHOICE_MADE - SUCCESS - Scene=scientist_lab Choice=2 Next=dark_tunnel
+2026-05-10 22:41:03 - CHOICE_MADE - SUCCESS - Scene=dark_tunnel Choice=1 Next=trapped_ending
+2026-05-10 22:41:03 - GAME_END - SUCCESS - Ending=trapped_ending
+2026-05-10 22:41:05 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:41:06 - CHOICE_MADE - SUCCESS - Scene=start Choice=2 Next=ai_voice
+2026-05-10 22:41:06 - NPC_INTERACTION - SUCCESS - NPC=SecurityAI
+2026-05-10 22:41:06 - ITEM_COLLECTED - SUCCESS - Item=Terminal Password Clue
+2026-05-10 22:41:09 - CHOICE_MADE - SUCCESS - Scene=ai_voice Choice=1 Next=server_room
+2026-05-10 22:41:57 - CHALLENGE_ATTEMPT - SUCCESS - Puzzle=TerminalLogin Attempts=1
+2026-05-10 22:41:57 - ITEM_COLLECTED - SUCCESS - Item=Encrypted USB
+2026-05-10 22:42:01 - CHOICE_MADE - SUCCESS - Scene=terminal_success Choice=1 Next=checkpoint_escape
+2026-05-10 22:42:01 - GAME_END - SUCCESS - Ending=checkpoint_escape
+2026-05-10 22:45:17 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:45:19 - CHOICE_MADE - SUCCESS - Scene=start Choice=2 Next=ai_voice
+2026-05-10 22:45:19 - NPC_INTERACTION - SUCCESS - NPC=SecurityAI
+2026-05-10 22:45:19 - ITEM_COLLECTED - SUCCESS - Item=Terminal Password Clue
+2026-05-10 22:46:03 - GAME_START - SUCCESS - Scene=start
+2026-05-10 22:46:05 - CHOICE_MADE - SUCCESS - Scene=start Choice=2 Next=ai_voice
+2026-05-10 22:46:05 - NPC_INTERACTION - SUCCESS - NPC=SecurityAI
+2026-05-10 22:46:05 - ITEM_COLLECTED - SUCCESS - Item=Terminal Password Clue
+2026-05-10 22:46:13 - CHOICE_MADE - SUCCESS - Scene=ai_voice Choice=1 Next=server_room
+2026-05-10 22:46:15 - CHALLENGE_ATTEMPT - SUCCESS - Puzzle=TerminalLogin Attempts=1
+2026-05-10 22:46:15 - ITEM_COLLECTED - SUCCESS - Item=Encrypted USB
