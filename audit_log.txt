@@ -1,0 +1,3 @@
+2026-05-10 23:16:26 - GAME_START - SUCCESS - Scene=start
+2026-05-10 23:16:30 - INPUT_INVALID - FAIL - Scene=start Input="j"
+2026-05-10 23:16:36 - GAME_END - SUCCESS - Player quit
