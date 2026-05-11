@@ -3,7 +3,7 @@
 # CYBER PACK: AUDIT LOGGING + INPUT VALIDATION
 
 from datetime import datetime
-
+# Main audit log file used for security-related events
 LOG_FILE = "audit_log.txt"
 
 
@@ -48,8 +48,7 @@ def get_valid_choice(prompt, valid_choices, scene="Menu"):
 
             # If the input is not valid, log it and show a friendly message.
             audit_log("INPUT_INVALID", "FAIL", f'Scene={scene} Input="{choice}"')
-            print(f"Invalid choice. Please enter one of these options: {', '.join(valid_choices)}.")
-
+            print("Invalid choice. Please try again.")
         except (KeyboardInterrupt, EOFError):
             # This handles cases where input is interrupted, like Ctrl+C or EOF.
             # Instead of crashing, the game logs the problem and asks again.
