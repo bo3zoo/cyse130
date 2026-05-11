@@ -13,8 +13,8 @@ This project uses a modular Python structure with separate files for the story, 
 | Name | Role | GitHub Username |
 |---|---|---|
 | Mohamed Alkarbi | Core Engine + Integration / Cybersecurity Support | TODO |
-| Abdullateef Alkhurafi | Core Engine + Integration | TODO |
-| Abdulaziz Alqllaf | Story + Gameplay Systems | TODO |
+| Abdullateef Alkhurafi | Core Engine + Integration | Abdullateef29 |
+| Abdulaziz Alqllaf | Story + Gameplay Systems | bo3zoo |
 | Natnael Dechassa | Story + Gameplay Systems | TODO |
 | Mohammad alajmi | Challenges + Cybersecurity | Mohammadalajmi1|
 | Jaber Alshammari | Challenges + Cybersecurity | TODO |
