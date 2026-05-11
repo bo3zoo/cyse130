@@ -16,7 +16,7 @@ This project uses a modular Python structure with separate files for the story, 
 | Abdullateef Alkhurafi | Core Engine + Integration | TODO |
 | Abdulaziz Alqllaf | Story + Gameplay Systems | TODO |
 | Natnael Dechassa | Story + Gameplay Systems | TODO |
-| Mohammad alajmi | Challenges + Cybersecurity | TODO |
+| Mohammad alajmi | Challenges + Cybersecurity | Mohammadalajmi1|
 | Jaber Alshammari | Challenges + Cybersecurity | TODO |
 
 ## How to Run the Game
