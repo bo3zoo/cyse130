@@ -13,11 +13,11 @@ This is a **one-file Python version**, so all game systems are inside one file.
 | Name | Role | GitHub Username |
 |---|---|---|
 | Mohamed Alkarbi | Core Engine + Integration / Cybersecurity Support | TODO |
-| Student 2 | Core Engine + Integration | TODO |
-| Student 3 | Story + Gameplay Systems | TODO |
-| Student 4 | Story + Gameplay Systems | TODO |
-| Student 5 | Challenges + Cybersecurity | TODO |
-| Student 6 | Challenges + Cybersecurity | TODO |
+| Abdullateef Alkhurafi | Core Engine + Integration | TODO |
+| Abdulaziz Alqllaf | Story + Gameplay Systems | TODO |
+| Natnael Dechassa | Story + Gameplay Systems | TODO |
+| Mohammad alajmi | Challenges + Cybersecurity | TODO |
+| Jaber Alshammari | Challenges + Cybersecurity | TODO |
 
 ## How to Run the Game
 
